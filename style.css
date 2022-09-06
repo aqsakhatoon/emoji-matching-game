@@ -5,18 +5,22 @@
 .box-container {
     display: grid;
     flex-wrap: wrap;
-    height: 300px;
-    width: 400px;
+    /* The height and width will help space out the emojis */
+    height: 800px;
+    width: 700px;
+    /* these columns and rows below will help me render the 3 by 4 output I was aiming for. */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, 1fr);
     color: black;
     position: absolute;
     bottom: 0;
-    top: 300px;
+    top: 200px;
 }
 
 .button {
+    /* I have this button here so that I can place the button somewhere specific on the screen*/
     display: flex;
+    /* The position absolute will help me somwhere specific on a screen. For example, I have bottom at zero, which means it'll display my button at the bottom of the site.*/
     position: absolute;
     bottom: 0;
     top: 100;
@@ -24,5 +28,6 @@
 
 body {
     display: flex;
-    justify-content: center;
+    /* The justify content will center my entire body in the middle of the screen*/
+    justify-content: space-around;
 }
