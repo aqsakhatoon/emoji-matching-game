@@ -13,6 +13,7 @@
 
 .button {
     display: flex;
+    position: absolute;
 }
 
 body {
