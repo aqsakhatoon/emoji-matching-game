@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let count = 0;
     //The setup will initiate a function that will shuffle the emojis
     function setup() {
-        const emojis = shuffle([`😀`, `🥳`, `🧐`, `😁`, `😀`, `🥳`, `😂`, `🥹`, `🧐`, `😁`, `🥹`, `😂` ])
+        const randEmojis = shuffle([`😀`, `🥳`, `🧐`, `😁`, `😀`, `🥳`, `😂`, `🥹`, `🧐`, `😁`, `🥹`, `😂` ])
     }
     function shuffle (arr) {
         //The lines 19-23 will shuffle the array and give us a value, and in order to get that value, you need to run a loop, which we have done below.
@@ -26,5 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
         return arr; 
     }
 })
+
+function createBoard() {
+    for (let i = 0; i < cardArray.length; i++) {
+        const card = document.createElement('cover')
+        card.setAttribute('src', 'images/plain.png')
+    }
+}
 
 
