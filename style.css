@@ -4,12 +4,12 @@
 }
 .flex-container {
     display: flex;
-    order: 4;
-    flex-direction: row;
-    position: absolute;
-    bottom: 0;
-    top: 150px;
-    box-sizing: border-box;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    color: black;
 }
 
 .button {
