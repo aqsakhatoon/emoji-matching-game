@@ -3,4 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const emojis = "`😀`, `😀`, `🧐`, `🧐`, `🥳`, `🥳`, `🥹`, `🥹`, `😁`, `😁`, `😂`, `😂`"
     const boxes = document.querySelectorAll('.box');
+    let compare = [];
+    //I am using indexes so when a pair of emojis does not match, they can hide again.
+    let indexes = [];
+    
 })
