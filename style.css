@@ -2,14 +2,17 @@
     padding: 0;
     margin: 0;
 }
-.flex-container {
-    display: flex;
+.box-container {
+    display: grid;
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, 1fr);
     color: black;
+    position: absolute;
+    bottom: 0;
+    top: 300px;
 }
 
 .button {
