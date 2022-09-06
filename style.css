@@ -17,6 +17,9 @@
     top: 200px;
 }
 
+.box {
+    background-image: url(https://imgur.com/a/gSBWYOg);
+}
 .button {
     /* I have this button here so that I can place the button somewhere specific on the screen*/
     display: flex;

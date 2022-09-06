@@ -27,10 +27,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 })
 
+//this function will create the game board, which is the plain image listed below.
 function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
         const card = document.createElement('cover')
         card.setAttribute('src', 'images/plain.png')
+        card.setAttribute('data-id', i)
+        card.addEventListener('click', reveal)
+        grid.appendChild(card)
     }
 }
 
