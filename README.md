@@ -8,7 +8,7 @@ If the lose, a "Reset Timer" will pop up so the player can try again!
 
 #### Tech Stack:
 - DOM Manipulation
-- Flex Box for boxes to hide the emojis
+- Grid Templates for boxes to hide the emojis
 
 #### Wireframes:
 - Layout Inspiration: https://imgur.com/a/7fOx5Hl
@@ -23,5 +23,5 @@ If the lose, a "Reset Timer" will pop up so the player can try again!
 - Create levels
 
 #### Potential Roadblocks:
-- Flex boxes aren't symmetrical
+- Grids aren't functional
 - Timer doesn't work
