@@ -14,6 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
     function init() {
         const emojis = shuffle([`😀`, `🥳`, `🧐`, `😁`, `😀`, `🥳`, `😂`, `🥹`, `🧐`, `😁`, `🥹`, `😂` ])
     }
+    function shuffle (arr) {
+        //The lines 19-21 will shuffle the array and give us a value, and in order to get that value, you need to run a loop, which we have done below.
+        for (let i = arr.length - 1; i > 0; i -- ) {
+            const x = Math.floor(Math.random() * (i + 1));
+            const temp = arr[i];
+        }
+    }
 })
 
 
