@@ -11,6 +11,10 @@
     top: 150px;
 }
 
+.button {
+    display: flex;
+}
+
 body {
     display: flex;
     justify-content: center;
