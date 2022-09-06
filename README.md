@@ -12,7 +12,7 @@ If the lose, a "Reset Timer" will pop up so the player can try again!
 
 #### Wireframes:
 - Layout Inspiration: https://imgur.com/a/7fOx5Hl
-(it will look different, as I want to style it differrently, this is just what it'll include; a timer, boxes to hide the emojis, Reset button, etc.)
+(it will look different, as I want to style it differrently, this is just what it'll include; boxes to hide the emojis, Reset button, etc.)
 
 #### MVP:
 - Render a matching game that has 12 emojis you have to match
@@ -21,6 +21,7 @@ If the lose, a "Reset Timer" will pop up so the player can try again!
 
 #### Stretch Goals:
 - Create levels
+- Timer
 
 #### Potential Roadblocks:
 - Grids arent 3x4
