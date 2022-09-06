@@ -9,6 +9,7 @@
     position: absolute;
     bottom: 0;
     top: 150px;
+    box-sizing: border-box;
 }
 
 .button {
